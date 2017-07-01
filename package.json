@@ -1,0 +1,19 @@
+{
+  "name": "aws-elasticsearch-indices-deletor",
+  "version": "0.0.0",
+  "description": "Deletes aws elasticsearch indices",
+  "main": "src/index.js",
+  "scripts": {
+    "package": "package.sh"
+  },
+  "author": "Jeff Ashton",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.48.0",
+    "bluebird": "^3.5.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
+  }
+}
