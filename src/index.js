@@ -117,7 +117,7 @@ function deleteExpiredIndiciesAsync( args ) {
 							{ concurrency: 1 } 
 						)
 						.then( () => {
-							return expiredIndexNames;
+							return targetIndexNames;
 						} );
 				} );
 		} );
